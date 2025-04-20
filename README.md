@@ -55,7 +55,7 @@ Course-paper/<br>
 │<br>
 ├── data/<br>
 │   ├── raw/<br>
-│   │   └── sms_spam.csv<br>
+│   │   └── Spam_SMS.csv<br>
 │   ├── processed/<br>
 │   └── splits/<br>
 │<br>
