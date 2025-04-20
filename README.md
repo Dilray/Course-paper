@@ -51,7 +51,7 @@
 # Структура проекта
 
 
-spam_classification_project/<br>
+Course-paper/<br>
 │<br>
 ├── data/<br>
 │   ├── raw/<br>
