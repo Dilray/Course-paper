@@ -1,0 +1,34 @@
+2025-05-29 20:01:24,105 - __main__ - INFO - Logistic Regression: F1 = 0.920 ± 0.012
+2025-05-29 20:01:26,642 - __main__ - INFO - SVM: F1 = 0.928 ± 0.025
+2025-05-29 20:01:28,142 - __main__ - INFO - Random Forest: F1 = 0.900 ± 0.031
+2025-05-29 20:01:29,385 - __main__ - INFO - XGBoost: F1 = 0.919 ± 0.016
+2025-05-29 20:01:29,711 - __main__ - INFO - Naive Bayes: F1 = 0.933 ± 0.009
+2025-05-29 20:01:29,842 - __main__ - INFO - Best model (Naive Bayes) saved to /Users/egorkulishov/Course-paper/models/best_spam_model.pkl
+2025-05-29 20:01:29,861 - __main__ - INFO - 
+Final Classification Report:
+              precision    recall  f1-score   support
+
+         ham       0.99      0.99      0.99       954
+        spam       0.93      0.94      0.94       161
+
+    accuracy                           0.98      1115
+   macro avg       0.96      0.97      0.96      1115
+weighted avg       0.98      0.98      0.98      1115
+
+2025-05-29 20:24:06,275 - __main__ - INFO - Logistic Regression: F1 = 0.920 ± 0.012
+2025-05-29 20:24:08,796 - __main__ - INFO - SVM: F1 = 0.928 ± 0.025
+2025-05-29 20:24:10,268 - __main__ - INFO - Random Forest: F1 = 0.900 ± 0.031
+2025-05-29 20:24:11,489 - __main__ - INFO - XGBoost: F1 = 0.919 ± 0.016
+2025-05-29 20:24:11,813 - __main__ - INFO - Naive Bayes: F1 = 0.933 ± 0.009
+2025-05-29 20:24:11,943 - __main__ - INFO - Best model (Naive Bayes) saved to /Users/egorkulishov/Course-paper/models/best_spam_model.pkl
+2025-05-29 20:24:11,961 - __main__ - INFO - 
+Final Classification Report:
+              precision    recall  f1-score   support
+
+         ham       0.99      0.99      0.99       954
+        spam       0.93      0.94      0.94       161
+
+    accuracy                           0.98      1115
+   macro avg       0.96      0.97      0.96      1115
+weighted avg       0.98      0.98      0.98      1115
+

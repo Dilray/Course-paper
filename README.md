@@ -7,14 +7,11 @@
 
 1. **Установите зависимости**: pip install -r requirements.txt
 
-2. **Запустите EDA в Jupyter**:  jupyter notebook
+2. **Запустите Jupyter**:  jupyter notebook
    
 
 3. **Обучите модель**: python src/train.py
-   
-
-4. **Протестируйте предсказания**: python src/predict.py
-   
+      
 
 ## Используемые модели
 
@@ -51,33 +48,37 @@
 # Структура проекта
 
 
-Course-paper/<br>
-│<br>
-├── data/<br>
-│   ├── raw/<br>
-│   │   └── Spam_SMS.csv<br>
-│   ├── processed/<br>
-│   └── splits/<br>
-│<br>
-├── models/<br>
-│   ├── baseline_model.pkl<br>
-│   └── best_model.pkl<br>
-│<br>
-├── notebooks/<br>
-│   ├── 1_EDA.ipynb<br>
-│   └── 2_Model_Experiments.ipynb<br>
-│<br>
-├── src/<br>
-│   ├── config.py<br>
-│   ├── data_preprocessing.py<br>
-│   ├── features.py<br>
-│   ├── train.py<br>
-│   ├── evaluate.py<br>
-│   └── predict.py<br>
-│<br>
-├── reports/<br>
-│   ├── figures/<br>
-│   └── performance_metrics.txt<br>
-│<br>
-├── requirements.txt<br>
-└── README.md<br>
+├── data
+│   └── raw
+│       └── Spam_SMS.csv
+├── figures
+│   ├── class_distribution.png
+│   ├── confusion_matrix_Logistic Regression.png
+│   ├── confusion_matrix_Naive Bayes.png
+│   ├── confusion_matrix_Random Forest.png
+│   ├── confusion_matrix_SVM.png
+│   ├── confusion_matrix_XGBoost.png
+│   └── message_length_distribution.png
+├── models
+│   ├── best_spam_model.pkl
+│   └── spam_classifier.pkl
+├── notebooks
+│   └── 2_Model_Experiments.ipynb
+├── README.md
+├── reports
+│   └── model_training.log
+├── requirements.txt
+├── results
+│   └── metrics_comparison.md
+└── src
+    ├── __pycache__
+    │   ├── config.cpython-313.pyc
+    │   ├── config.cpython-39.pyc
+    │   ├── data_preprocessing.cpython-313.pyc
+    │   ├── evaluate.cpython-313.pyc
+    │   ├── predict.cpython-313.pyc
+    │   └── results_analysis.cpython-313.pyc
+    ├── config.py
+    ├── data_preprocessing.py
+    ├── results_analysis.py
+    └── train.py

@@ -13,5 +13,4 @@ FIGURES_DIR = REPORTS_DIR / 'figures'
 for directory in [DATA_DIR, MODELS_DIR, REPORTS_DIR, FIGURES_DIR]:
     directory.mkdir(parents=True, exist_ok=True)
 
-STOP_WORDS = ['a', 'an', 'the', 'and', 'or', 'but', 'if', 'is', 'are', 'it', 'this', 'that']
 MAX_FEATURES = 5000
