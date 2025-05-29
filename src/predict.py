@@ -25,12 +25,6 @@ class SpamClassifier:
         
         return results
 
-# Пример использования:
-# classifier = SpamClassifier()
-# results = classifier.predict(["Free entry to win prizes!", "Hey, how are you doing?"])
-# print(results)
-
-
 import logging
 
 logging.basicConfig(

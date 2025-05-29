@@ -25,7 +25,3 @@ class TextPreprocessor(BaseEstimator, TransformerMixin):
     
     def transform(self, X, y=None):
         return [self.clean_text(text) for text in X]
-
-# Пример использования:
-# preprocessor = TextPreprocessor()
-# X_clean = preprocessor.transform(X_raw)
